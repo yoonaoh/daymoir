@@ -9,23 +9,34 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .DaymoirApp-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: DaymoirApp-logo-spin infinite 20s linear;
   }
 }
 
 .DaymoirApp-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  min-height: 10vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
+}
+
+.DaymoirApp-appBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .DaymoirApp-link {
-  color: #61dafb;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DaymoirApp-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-around; */
+  /* max-width: 50vh; */
 }
 
 @keyframes DaymoirApp-logo-spin {
